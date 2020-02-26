@@ -89,15 +89,11 @@ box-shadow: 0px 0px 1px;
     function itemSelected(index){
       var feedData = currFeedData.feed.results[index];
       // For A3 generate `markup` here
-      var name = data.name || "";
-      var link = data.url || "";
-      var artist = data.artistName || "";
+
       var markup = "";
       console.log(data);
       markup += "<img src='" + feedData.artworkUrl100 + "'>"
-      markup += "<a target='_blank' href='" + link + "'><h1>" + name + "</h1></a>";
-	    markup += "<p> " + artist + "</p>";
-      $("#theDetails").html(markup);
+
         document.getElementById("feedDetails").innerHTML = markup;
         document.getElementById("currFeedListWrapper").style.display = "none";
         document.getElementById("feedDetailsWrapper").style.display = "block";
