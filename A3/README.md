@@ -1,16 +1,13 @@
 # Assignment 3
 `Due Feb 10, before midnight`
 
-## Tasks
+## Task
 
-1. Please add CSS to the `rssViewer` project. 
-2. Complete function `itemSelected()` (line 69, index.html) to generate html maekup for each feed item.
+Please add CSS to the `rssViewer` project.
 
 ## Reference
 
 https://www.w3schools.com/css/
-
-https://rss.itunes.apple.com/en-us
 
 
 ## Usage
